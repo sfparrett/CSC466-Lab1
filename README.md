@@ -3,8 +3,16 @@ Lab 1 for 466
 
 Names and email addresses of all students in the group.
 
+
+
   • Sophia Parrett - Email: sparrett@calpoly.edu 
+  
+  
+  
   • Joshua Rauvola - Email: jrauvola@calpoly.edu
+
+
+
 
 Description of the programming language of choice.
 
