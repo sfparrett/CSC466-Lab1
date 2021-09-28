@@ -13,9 +13,10 @@ Description of the programming language of choice.
 Instructions for how to run your code.
 
 1).  Make sure you have the following installed:
-    a). matplotlib 
-    b). pandas
-    c). numpy
+
+a). matplotlib 
+b). pandas
+c). numpy
 
 2). To run: python3 main.py --filename [FILENAME] 
     a). Files you can run: NationalNames.csv & StateNames.csv 
