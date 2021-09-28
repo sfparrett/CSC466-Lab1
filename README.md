@@ -26,11 +26,11 @@ Instructions for how to run your code.
 1).  Make sure you have the following installed:
 
 
-a). matplotlib 
+    a). matplotlib 
 
-b). pandas
+    b). pandas
 
-c). numpy
+    c). numpy
 
 
 2). To run: python3 main.py --filename [FILENAME] 
