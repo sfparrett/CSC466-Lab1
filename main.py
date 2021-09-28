@@ -48,7 +48,6 @@ def common_bible_names():
   )
   soup = BeautifulSoup(response.content, 'html.parser')
   title = soup.find_all(id= "")
-  print(title)
 
 def bible(df):
   # get most common biblenames from each year
@@ -131,10 +130,12 @@ def main():
     args = vars(parser.parse_args())
     csv_file  = args["filename"]
     df = data_cleaning(csv_file)
-    #trauma(df)
-    #bible(df)
+    trauma(df)
+
+    bible(df)
     catholic_rates()
-    #britney_names(df)
-    #britney_album_sales()
+
+    britney_names(df)
+    britney_album_sales()
 
 main()
